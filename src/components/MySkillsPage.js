@@ -190,46 +190,31 @@ const MySkillsPage = () => {
     <Develope width={40} height={40} /> Backend & DevOps Enthusiast
   </Title>
   <Description>
-    I enjoy building scalable backend systems and exploring how distributed services interact in production. I like to reason about architecture, data flow, and automation pipelines.
-  </Description>
-  <Description>
-    <strong>Focus Areas</strong>
-    <ul>
-      <li>Backend APIs, authentication, system reliability</li>
-      <li>Serverless & container-based deployments</li>
-      <li>Cloud infrastructure and CI/CD automation</li>
-    </ul>
+    Passionate about building scalable and maintainable backend systems. I enjoy designing APIs, managing databases, and orchestrating distributed services with an eye for reliability and performance in real-world deployments.
   </Description>
   <Description>
     <strong>Tech Stack</strong>
     <ul>
-      <li>Python, Django, Node.js</li>
-      <li>AWS, Docker, GitHub Actions</li>
-      <li>MySQL, MongoDB</li>
+      <li>Languages & Frameworks: Python, Django, Node.js</li>
+      <li>DevOps & Cloud: AWS, Docker, Kubernetes, Linux, GitHub Actions, CI/CD pipelines</li>
+      <li>Databases: MySQL, MongoDB</li>
     </ul>
   </Description>
 </Main>
+
 <Main>
   <Title>
     <Design width={40} height={40} /> Interface Design & Problem Solving
   </Title>
   <Description>
-    I love building clean, functional user interfaces and solving algorithmic problems that push logical thinking. I believe design clarity and code efficiency go hand-in-hand.
-  </Description>
-  <Description>
-    <strong>Interests</strong>
-    <ul>
-      <li>Minimal, responsive frontend UI</li>
-      <li>GUI design using frameworks like PyQt, React</li>
-      <li>Data Structures & Algorithms (DSA)</li>
-    </ul>
+    I enjoy crafting intuitive, responsive user interfaces and solving challenging algorithmic problems. I believe that clean design and optimized logic are essential for building impactful software.
   </Description>
   <Description>
     <strong>Tools & Skills</strong>
     <ul>
-      <li>React.js, HTML, CSS, Tailwind</li>
-      <li>PyQt5, Figma, Canva</li>
-      <li>C++, Python, LeetCode/GeeksforGeeks</li>
+      <li>Frontend: React.js, HTML5, CSS3, Tailwind CSS</li>
+      <li>UI/UX & Desktop: PyQt5, Figma, Canva</li>
+      <li>Problem Solving: C++, Python, Data Structures & Algorithms (LeetCode, GFG)</li>
     </ul>
   </Description>
 </Main>

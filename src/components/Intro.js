@@ -169,9 +169,10 @@ const Intro = () => {
           transition={{ duration: 1, delay: 2 }}
         >
          <h1>Hello,</h1>
-<h3>I'm Rajiv Kumawat</h3>
-<h5>I build scalable backend systems.</h5>
-<h6>Curious about systems, DevOps, and clean interfaces.</h6>
+         <h3>I'm Rajiv Kumawat</h3>
+<h5>I craft scalable backend solutions</h5>
+<h6>Obsessed with system design & developer workflows</h6>
+
         </Text>
       </SubBox>
       <SubBox>
