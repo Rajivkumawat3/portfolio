@@ -136,11 +136,7 @@ const icons = [
 
   // Tools
 
-  {
-    name: "Git",
-    icon: SiGit,
-    options: { color: "#F1502F", size: "100px" },
-  },
+
   {
     name: "GitHub",
     icon: SiGithub,
@@ -179,11 +175,6 @@ const icons = [
     name: "Figma",
     icon: Figma,
     options: { size: "100px" },
-  },
-  {
-    name: "Canva",
-    icon: SiCanva,
-    options: { color: "#20c4cb", size: "100px" },
   },
 
   // Platform
