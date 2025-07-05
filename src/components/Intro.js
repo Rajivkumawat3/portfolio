@@ -168,10 +168,10 @@ const Intro = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 2 }}
         >
-         <h1>Hello,</h1>
-         <h3>I'm Rajiv Kumawat</h3>
-<h5>I craft scalable backend solutions</h5>
-<h6>Obsessed with system design & developer workflows</h6>
+ <h3>Hello,</h3>
+<h4>I'm Rajiv Kumawat</h4>
+<h6>Full-stack developer focused on backend systems</h6>
+<h6>Passionate about cloud infrastructure, real-time systems, and system architecture</h6>
 
         </Text>
       </SubBox>

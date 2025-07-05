@@ -32,7 +32,7 @@ export const Work = [
   {
     index: 2,
     name: "Drizzle",
-    info: "Drizzle is a lightweight peer-to-peer file-sharing and messaging application for local networks (inspired by DC++). It offers secure file transfers, real-time discovery, chat, and resumeable downloads via a PyQt5 desktop interface.\n\nKey technologies: Python, PyQt5, Docker, Socket.io",
+    info: "Drizzle is a lightweight peer-to-peer file-sharing and messaging application for local networks (inspired by DC++). It offers secure file transfers, real-time discovery, chat, and resumeable downloads via a PyQt5 desktop interface.\n\nKey technologies: Python, PyQt5, Docker, TCP/IP",
     techStack: findIconsData([
       "Python",
       "Socket.io",

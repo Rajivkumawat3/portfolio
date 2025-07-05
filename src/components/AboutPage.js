@@ -108,12 +108,11 @@ const AboutPage = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
           >
-   I’m a final-year Integrated B.Tech (IT) student at IIIT Gwalior with a strong foundation in backend development, cloud infrastructure, and DevOps. I’m fascinated by how systems work — from architecture to execution — and I enjoy building scalable, maintainable solutions that solve real-world problems.
+I’m a final-year Integrated B.Tech (IT) student at IIIT Gwalior with a strong foundation in backend development and a growing passion for system design and DevOps. I’m fascinated by how systems work—from architecture and cloud infrastructure to deployment—and I enjoy building scalable, maintainable solutions that solve real-world problems.
 
 <br /><br />
 
-I have a deep interest in system design and problem-solving, backed by a solid grasp of data structures and algorithms. I'm always up for collaborating on projects that challenge me to think critically, architect efficiently, and write clean, reliable code.
-
+Through hands-on internships and projects, I’ve developed robust backend services, integrated cloud platforms and payment systems, and explored cloud-native tooling like Docker, AWS, CI/CD, and Kubernetes. I love working on projects that challenge me to think critically, design systems efficiently, and write clean, reliable code.
 
           </Main>
 

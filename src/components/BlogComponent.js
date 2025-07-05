@@ -3,125 +3,75 @@ import React from "react";
 import styled from "styled-components";
 import { mediaQueries } from "./Themes";
 
-const Box = styled(motion.a)`
+const Box = styled(motion.div)`
   backdrop-filter: blur(2px);
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
-  text-decoration: none;
-  width: calc(10rem + 15vw);
-  height: 20rem;
+  width: calc(20rem + 10vw);
+  min-height: 22rem;
+  padding: 1.5rem;
   border: 2px solid ${(props) => props.theme.text};
-  padding: 1rem;
   color: ${(props) => props.theme.text};
   display: flex;
   flex-direction: column;
-  z-index: 5;
-  cursor: pointer;
-
-  &:hover {
-    color: ${(props) => props.theme.body};
-    background-color: ${(props) => props.theme.text};
-    transition: all 0.3s ease;
-  }
+  justify-content: flex-start;
+  cursor: default;
+  background-color: ${(props) => props.theme.body};
+  white-space: pre-line;
 
   ${mediaQueries(50)`
-    width: calc(60vw);
-  `}
-
-  ${mediaQueries(30)`
-    height: 18rem;
+    width: 90%;
   `}
 
   ${mediaQueries(25)`
-    height: 14rem;
-    padding: 0.8rem;
-    backdrop-filter: none;
+    padding: 1rem;
+    min-height: 20rem;
   `}
-`;
-
-const Image = styled.div`
-  background-image: ${(props) => `url(${props.$img})`};
-  width: 100%;
-  height: 60%;
-  background-size: cover;
-  border: 1px solid transparent;
-  background-position: center center;
-
-  ${mediaQueries(25)`
-    height: 70%;
-  `}
-
-  ${Box}:hover & {
-    border: 1px solid ${(props) => props.theme.body};
-  }
 `;
 
 const Title = styled.h3`
-  color: inherit;
-  padding: 0.5rem 0;
-  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
   font-family: "Karla", sans-serif;
-  font-weight: 800;
-  border-bottom: 1px solid ${(props) => props.theme.text};
 
   ${mediaQueries(40)`
-    font-size: calc(0.8em + 1vw);
+    font-size: 1.1rem;
   `}
 
   ${mediaQueries(25)`
-    font-size: calc(0.6em + 1vw);
+    font-size: 1rem;
   `}
-
-  ${Box}:hover & {
-    border-bottom: 1px solid ${(props) => props.theme.body};
-  }
 `;
 
-const HashTags = styled.div`
-  padding: 0.5rem 0;
-`;
-
-const Tag = styled.span`
-  padding-right: 0.5rem;
-`;
-
-const Date = styled.span`
-  padding: 0.5rem 0;
+const Info = styled.p`
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6;
+  white-space: pre-line;
 
   ${mediaQueries(25)`
-    font-size: calc(0.5em + 1vw);
+    font-size: 0.9rem;
   `}
 `;
 
 const Container = styled(motion.div)``;
 
-// Framer motion configuration
 const Item = {
-  hidden: {
-    scale: 0,
-  },
+  hidden: { scale: 0 },
   show: {
     scale: 1,
-    transition: {
-      type: "spring",
-      duration: 0.5,
-    },
+    transition: { type: "spring", duration: 0.5 },
   },
 };
 
-const BlogComponent = (props) => {
-  const { link, name, tags, date, imgSrc } = props.blog;
+const BlogComponent = ({ blog }) => {
+  const { name, info } = blog;
+
   return (
     <Container variants={Item}>
-      {/* <Box target="_blank" href={`${link}`}> */}
-      <Box target="_blank" href={`${link}`}>
-        <Image $img={imgSrc} />
+      <Box>
         <Title>{name}</Title>
-        <HashTags>
-          {tags.map((t, id) => {
-            return <Tag key={id}>#{t}</Tag>;
-          })}
-        </HashTags>
-        <Date>{date}</Date>
+        <Info>{info}</Info>
       </Box>
     </Container>
   );

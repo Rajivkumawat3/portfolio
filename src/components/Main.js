@@ -298,7 +298,7 @@ const Main = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  Blog
+                  Experience
                 </motion.h2>
               </BLOG>
             ) : (
@@ -315,13 +315,13 @@ const Main = () => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
-                  Blog
+                   Experience
                 </motion.h2>
               </BLOG>
             )}
 
             <Resume
-              to="https://drive.google.com/file/d/1Q4NKxG3i5bxbxXNu4mlHdKQw2fs7uFN5/view?usp=sharing"
+              to="https://drive.google.com/file/d/1kAwnyNbeU6em7R6UJaEnISL-zLwPBf1k/view?usp=sharing"
               target="_blank"
               $click={click}
             >

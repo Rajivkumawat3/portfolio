@@ -23,9 +23,9 @@ const PostContainer = styled(motion.div)`
   color: ${(props) => props.theme.text};
 
   ${mediaQueries(30)`
-        width: 90%;
-        padding: 1rem;
-    `}
+    width: 90%;
+    padding: 1rem;
+  `}
 `;
 
 const Title = styled.h1`
@@ -36,6 +36,11 @@ const Title = styled.h1`
 const Content = styled.div`
   font-size: 1.1rem;
   line-height: 1.5;
+  white-space: pre-line;
+
+  ${mediaQueries(25)`
+    font-size: 1rem;
+  `}
 `;
 
 const BackLink = styled(Link)`
@@ -58,7 +63,7 @@ const BlogPost = () => {
   useEffect(() => {
     let num = (window.innerHeight - 70) / 30;
     setNumbers(parseInt(num));
-    const currentPost = Blogs.find((blog) => blog.id === parseInt(slug));
+    const currentPost = Blogs.find((blog) => blog.index === parseInt(slug));
     setPost(currentPost);
   }, [slug]);
 
@@ -75,11 +80,11 @@ const BlogPost = () => {
       <PowerButton />
       <SocialIcons />
       <AnchorComponent number={numbers} />
+
       <Title>{post.name}</Title>
-      <Content>
-        {post.content}
-      </Content>
-      <BackLink to="/blog">← Back to Blogs</BackLink>
+      <Content>{post.info}</Content>
+
+      <BackLink to="/blog">← Back to Experience</BackLink>
     </PostContainer>
   );
 };

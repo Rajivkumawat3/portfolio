@@ -187,34 +187,34 @@ const MySkillsPage = () => {
           <ParticleComponent theme="light" />
           <Main>
   <Title>
-    <Develope width={40} height={40} /> Backend & DevOps Enthusiast
+    <Develope width={40} height={40} /> Full-Stack Development
   </Title>
   <Description>
-    Passionate about building scalable and maintainable backend systems. I enjoy designing APIs, managing databases, and orchestrating distributed services with an eye for reliability and performance in real-world deployments.
+    I enjoy building robust applications from the ground up — crafting seamless UIs, designing backend APIs, and developing desktop tools. I value clean code, reusable components, and user-centric experiences.
   </Description>
   <Description>
     <strong>Tech Stack</strong>
     <ul>
-      <li>Languages & Frameworks: Python, Django, Node.js</li>
-      <li>DevOps & Cloud: AWS, Docker, Kubernetes, Linux, GitHub Actions, CI/CD pipelines</li>
+      <li>Frontend: React.js, HTML5, CSS3</li>
+      <li>Backend: Node.js, Django, WebSockets</li>
+      <li>Desktop Apps: PyQt5</li>
       <li>Databases: MySQL, MongoDB</li>
     </ul>
   </Description>
 </Main>
-
 <Main>
   <Title>
-    <Design width={40} height={40} /> Interface Design & Problem Solving
+    <Design width={40} height={40} /> Cloud Infrastructure & System Design
   </Title>
   <Description>
-    I enjoy crafting intuitive, responsive user interfaces and solving challenging algorithmic problems. I believe that clean design and optimized logic are essential for building impactful software.
+    I'm deeply curious about how systems work under the hood — from handling scale and reliability to designing fault-tolerant, cloud-native architectures. I love automating workflows and thinking in distributed patterns.
   </Description>
   <Description>
-    <strong>Tools & Skills</strong>
+    <strong>Tech Stack & Concepts</strong>
     <ul>
-      <li>Frontend: React.js, HTML5, CSS3, Tailwind CSS</li>
-      <li>UI/UX & Desktop: PyQt5, Figma, Canva</li>
-      <li>Problem Solving: C++, Python, Data Structures & Algorithms (LeetCode, GFG)</li>
+    <li>Cloud & DevOps: Linux, AWS (EC2), Docker Swarm, NGINX, Kubernetes, CI/CD pipelines</li>
+<li>System Design: Load balancing, caching, database sharding, service orchestration</li>
+
     </ul>
   </Description>
 </Main>
