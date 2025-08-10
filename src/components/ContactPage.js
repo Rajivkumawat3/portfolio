@@ -89,7 +89,7 @@ const ContactPage = () => {
   const socialMediaLinks = {
     github: "https://github.com/Rajivkumawat3",
     linkedin: "https://www.linkedin.com/in/rajiv-kumawat-978b95226/",
-    leetcode: "https://leetcode.com/u/rajivkumawat28012002/",
+    leetcode: "https://leetcode.com/u/henry_kelvin001/",
     GeeksforGeeks: "https://www.geeksforgeeks.org/user/rajivkumawat28012002/"
   };
 

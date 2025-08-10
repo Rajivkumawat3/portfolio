@@ -75,7 +75,7 @@ const SocialIcons = (props) => {
           style={{ color: "inherit" }}
           target="_blank"
           rel="noreferrer"
-          href="https://leetcode.com/u/rajivkumawat28012002/"
+          href="https://leetcode.com/u/henry_kelvin001/"
         >
           <LeetCode
             width={25}
